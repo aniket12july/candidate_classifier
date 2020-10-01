@@ -7,3 +7,4 @@ A custom feature identifier was used that could identify some custom multi-word 
 Second, I combined the results of the classifiers into a bayesian probability estimate for the class of the page. I was using as my input both the discrete classification returned by each classifier and the score returned for each class by each classifier. This almost certainly led to some inaccuracy in my conditional independence assumptions for my input variables, but it did give me a really nice (artificially) sharp logistic shaped function for making class choices. 
 The Bayesian formula used was:
 P(class | classifications, score) = P(class)*prod(P(classification|class) for each classifier)*P(score|class)/sum(P(class)*prod(P(classification|class) for each classifier)*P(score|class) for each class)
+THANKS FOR VISITING
